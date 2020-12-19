@@ -71,6 +71,7 @@ li a {
   }
 li a:hover{
 	background-color: black;
+	color: white;
 
 }
 
@@ -83,4 +84,12 @@ li a:hover{
 	  justify-content: space-around;
 
   }
+
+.Grid {
+	
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
 
