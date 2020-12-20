@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 
+
 .ma {
 	display: flex;
 	justify-content: center;
@@ -82,14 +83,27 @@ li a:hover{
   .Navbar {
 	  display: flex;
 	  justify-content: space-around;
-
   }
 
-.Grid {
-	
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
 
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	
+ 
 }
 
+.box {
+	height: 344px;
+	width: 344px;
+	padding: 0 20px 20px;
+	
+	
+}
+
+ 
+	
