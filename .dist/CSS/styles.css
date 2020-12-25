@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: rgba(253, 209, 216, 0.925);
+	
     
 }
 ol, ul {
@@ -55,8 +56,8 @@ table {
 	justify-content: center;
 	margin-left: 43rem;
 	margin-top: 5%;
-	width: 10%;
-	height: 10%;
+	width: 15%;
+	height: 15%;
 	border-radius: 50%;
 }
 
@@ -83,6 +84,8 @@ li a:hover{
   .Navbar {
 	  display: flex;
 	  justify-content: space-around;
+	  width: 100%;
+	  
   }
 
 
@@ -98,12 +101,118 @@ li a:hover{
 }
 
 .box {
-	height: 344px;
-	width: 344px;
+	height: 440px;
+	width: 440px;
 	padding: 0 20px 20px;
+	border-radius: 3%;
+
 	
 	
 }
 
+
+.box:hover {
+	animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+.flex-container2 {
+	 display: flex;
+	 justify-content: wrap;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-evenly;
+}
+
+.box2 {
 	
+	width: 200px;
+	padding: 1px;
+	border: 5px solid white;
+	
+	
+	
+}
+
+/*about us page
+*/
+
+.white {
+	
+	display: block;
+	margin: 50px;
+	border: 20%;
+	padding: 10%;
+	width: 50%;
+	height: 250px;
+	margin-left: 14%;
+	background-color: white;
+	font-size: 20px;
+   
+   
+   
+
+}
+
+/*img {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+
+  
+  img {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+  }
+
+  /*
+
+  
