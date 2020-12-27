@@ -127,16 +127,31 @@ a {
 
 
 li a {
-	display: block;
+	/*display: block;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	background-color: #f1f1f1;
+	*/background-color: #f1f1f1;
+
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background-color: white;
+	color: black;
+
+
+
+
 	
   }
 li a:hover{
-	background-color: black;
+	background-color: lightskyblue;
 	color: white;
 
 }
@@ -150,6 +165,7 @@ li a:hover{
 	  justify-content: space-around;
 	  width: 100%;
 	  
+	  
   }
 
 
@@ -159,6 +175,7 @@ li a:hover{
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	
 	
 
 	
@@ -177,12 +194,14 @@ li a:hover{
 }
 
 
-.box:hover {
-	/*animation: shake 0.5s;
-  */animation-iteration-count: infinite;
-  background: url("images/milkyway.jpg") no-repeat;
+/*.box:hover {
+	animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background: url('../CSS/acake.JPG');
+  background-color: transparent;
+  
 }
-
+*/
 
 @keyframes shake {
 	0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -249,10 +268,31 @@ li a:hover{
 	 justify-content: wrap;
 	 flex-direction: row;
 	 align-items: stretch;
-	 justify-content: space-evenly
+	 justify-content: stretch;
+	 margin-left: 20%;
 	 
 	 
 }
+
+ 
+.mini-cakes {
+	display: flex;
+	justify-content: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-evenly;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
 
 .box2 {
 	
@@ -321,7 +361,7 @@ margin-left: 14%;
 .content img {
 	width: 447px;
 	height: 550px;
-	margin-right: 10px;
+	margin-bottom: 10px;
 	
 }
 .details {
@@ -340,11 +380,13 @@ p {
 	line-height: 1.5em;
 	text-align: center;
 	font-size: 1em;
-	margin-left: 9px;
+	margin-left: 10px;
+	color: #555555;
 }
 
 .p2{
-	font-size: 2.5em;
+	font-size: 35px;
+	color: #555555;
 	
 }
 
@@ -353,4 +395,23 @@ p {
 	margin-bottom: 1%;
 	
 	
+}
+
+
+.story {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+    text-align: center;
+	font-size: 15px;
+	
+	
+
+}
+
+
+.map {
+display: flex;
+justify-content: center;
+height: 1px;
+width: 2px;
 }
