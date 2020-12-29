@@ -152,7 +152,7 @@ li a {
 	
   }
 li a:hover{
-	background-color: lightskyblue;
+	background-color: black;
 	color: white;
 
 }
@@ -242,13 +242,19 @@ li a:hover{
 	flex-direction: row;
 	align-items: stretch;
 	justify-content: space-evenly;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 
 
 
 
-
+.igsmall {
+	margin-right: 100px;
+	
+	
+	
+	
+}
 
 
 
@@ -272,7 +278,7 @@ li a:hover{
 	 flex-direction: row;
 	 align-items: stretch;
 	 justify-content: stretch;
-	 margin-left: 20%;
+	 margin-left: 100px;
 	 
 	 
 }
