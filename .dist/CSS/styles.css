@@ -70,6 +70,7 @@ a {
 	border-radius: 50%;
 	animation-duration: 3s;
 	animation-name: slidein;
+	
 }
 @media only screen and (max-width: 600px) {
 	.ma {
@@ -97,14 +98,14 @@ a {
 
 
 
-.marsh {
-	display: flex;
+#marsh {
+	
 	margin-left: 5%;
-	animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-	animation-duration: 2.5s;        /* Change to speed up or slow down */
-	animation-iteration-count: infinite;  /* Never stop waving :) */
-	transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-	display: inline-block;
+	/*animation-name: wave-animation; 
+	animation-duration: 2.5s;      
+	animation-iteration-count: infinite;  
+	transform-origin: 70% 70%;   
+	*/
 	
 }
 
@@ -113,14 +114,14 @@ a {
 
 
 
-@keyframes wave-animation {
+/*@keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   10% { transform: rotate(14.0deg) }  
    20% { transform: rotate(-8.0deg) }
    30% { transform: rotate(14.0deg) }
    40% { transform: rotate(-4.0deg) }
    50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+   60% { transform: rotate( 0.0deg) } 
   100% { transform: rotate( 0.0deg) }
 }
 
@@ -141,7 +142,7 @@ a {
 	}
   }
 
-
+*/
 
 
 
@@ -190,6 +191,7 @@ li a:hover{
 	  display: flex;
 	  justify-content: space-around;
 	  width: 100%;
+	  margin-left: 1%;
 	 
   }
 
@@ -236,7 +238,7 @@ li a:hover{
   background-color: transparent;
   
 }
-*/
+
 
 @keyframes shake {
 	0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -252,7 +254,7 @@ li a:hover{
 	100% { transform: translate(1px, -2px) rotate(-1deg);}
 }
 
-
+*/
 
 .list {
 	display: flex;
@@ -280,15 +282,22 @@ li a:hover{
 
 
 
-.igsmall {
-	margin-right: 100px;
+#igsmall img{ 
 	
+	margin-right: 70px;
 	
 	
 	
 }
 
+.clickbox1 {
+	margin-right: 5%;
+}
 
+
+.clickbox2{
+	margin-right: 25px;
+}
 
 
 
@@ -459,7 +468,7 @@ p {
 .p2{
 	font-size: 40px;
 	color: #555555;
-	margin-left: 14%;
+	margin-left: 17%;
 	
 }
 
@@ -490,11 +499,17 @@ p {
 
 
 .story2 {
-	font-family: 'Open Sans', sans-serif;
-    text-align: center;
-	font-size: 15px;
-	margin-left: 15%;
+	font-family: 'Open Sans', sans-serif; 
+   /* text-align: center;*/
+	font-size: 15px; 
+	margin-left: 15%; 
 	
+
+	width:340px;
+		height: 400px;
+		margin-right: 20px;
+		text-align: center;
+
 	
 
 }
