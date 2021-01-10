@@ -326,6 +326,37 @@ li a:hover{
 }
 
 
+@media only screen and (max-width: 675px) {
+	.socials {
+		font-size: 20px;
+	
+	
+	
+	
+	
+		
+		
+	}
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icons {
 	display: flex;
 	justify-content: wrap;
@@ -420,6 +451,21 @@ video {
 		
 	}
   } 
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 
 
 
