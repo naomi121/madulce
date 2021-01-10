@@ -379,6 +379,25 @@ li a:hover{
 	
 }
 
+
+@media only screen and (max-width: 675px) {
+	#igsmall {
+	margin-left: 48px;
+	
+	
+	
+	
+	
+		
+		
+	}
+  } 
+
+
+
+
+
+
 .clickbox1 {
 	margin-right: 5%;
 	font-family: 'Aspergit', sans-serif;
