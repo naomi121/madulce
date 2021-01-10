@@ -77,7 +77,7 @@ a {
 }
 @media only screen and (max-width: 600px) {
 	.ma {
-		margin-left: 140px;
+		margin-left: 106px;
 		width: 40%;
 		height: 40%;
 		
@@ -588,6 +588,7 @@ p {
 	
 	color: #555555;
 	margin-right: 200px;
+	font-family: s;
 }
 
 .story {
